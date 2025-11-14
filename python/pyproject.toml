@@ -1,0 +1,21 @@
+[project]
+name = "vo-ufadevconf-python"
+version = "0.1.0"
+description = "Value Object presentation example implemented in Python"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi==0.111.0",
+    "uvicorn[standard]==0.30.3",
+    "pytest==8.2.2"
+]
+
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
