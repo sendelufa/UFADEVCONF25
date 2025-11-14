@@ -1,0 +1,2 @@
+rootProject.name = 'vo-ufadevconf'
+include 'domain', 'application', 'infrastructure'

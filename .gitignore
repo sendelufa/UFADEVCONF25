@@ -1,0 +1,43 @@
+.gradle/
+**/.gradle/
+build/
+**/build/
+gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Java
+*.class
+*.log
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Tooling
+.factorypath
+.project
+.settings/
+.classpath
+
+# Linux/macOS temporary files
+*~
+*.swp
+.Trash-*/
+
+# Windows shortcuts
+*.lnk
